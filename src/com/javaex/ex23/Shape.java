@@ -1,4 +1,4 @@
-package com.javaex.ex22;
+package com.javaex.ex23;
 
 //abstract > 독단적으로 사용하지 말고 상속해서 쓰도록
 public abstract class Shape {
@@ -46,5 +46,7 @@ public abstract class Shape {
 	//abstract > 오버라이딩 용 메소드 작성, 내부 코드는 없음
 	//abstract를 사용한 메소드는 자식이 꼭 구현해야 한다
 	public abstract void draw();
+	
+	public abstract void area();
 	
 }
